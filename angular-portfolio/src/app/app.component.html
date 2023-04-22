@@ -1,0 +1,40 @@
+<div  class="container components__container">
+  <!--
+    Header
+  -->
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+      <img src="../assets/junhe-chen-script.png" alt="">
+    </a>
+
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a href="#" class="nav-link">PROJECTS</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">BIO</a></li>
+      <li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-link-45deg"></i>GITHUB</a></li>
+      <li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-link-45deg"></i>LINKEDIN</a></li>
+    </ul>
+  </header>
+
+  <!--
+    Navbar
+  -->
+  
+  <nav [class.hide-nav]="hideNav" class="navbar bg-dark navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="../assets/junhe-chen-script-light.png" alt="Logo" height="35" style="padding-left: 20px;" class="d-inline-block align-text-top">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4">
+        <h5 class="text-white h4">Collapsed content</h5>
+        <span class="text-muted">Toggleable via the navbar brand.</span>
+      </div>
+    </div>
+  </nav>
+  
+  <img class="bg-image" src="../assets/junhe-chen-logo.jpg" alt="">
+</div>

@@ -1,0 +1,12 @@
+
+.lead{
+    font-size: 16px;
+}
+.lead_strong{
+    font-weight: bold;
+}
+.underline_text{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    font-weight: bolder;
+}
